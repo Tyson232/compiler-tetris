@@ -1,0 +1,18 @@
+# Core ML & Unsloth Stack
+torch==2.6.0
+xformers==0.0.29.post3
+unsloth==2026.4.8
+unsloth_zoo==2026.4.8
+
+# Hugging Face TRL & PEFT Stack
+transformers==4.55.4
+trl==0.20.0
+datasets==4.3.0
+peft>=0.18.0
+accelerate==1.10.0
+bitsandbytes==0.45.5
+
+# Utilities
+wandb
+matplotlib
+openenv
